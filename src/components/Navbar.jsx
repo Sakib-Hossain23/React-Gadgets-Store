@@ -78,12 +78,22 @@ const Navbar = ({
       {/* Top section of the navbar */}
       <div className="navbar-top">
         {/* Logo section */}
-        <div className="navbar-logo">
-          <h1>
-            Gadget<span style={{ color: "orange" }}>s</span>
-          </h1>
-          <p>Gadgets Store</p>
-        </div>
+        <Link
+          to="/"
+          className="footer-button"
+          onClick={() => {
+            closeAllMenus();
+            window.scrollTo(0, 0);
+          }}
+        >
+          <div className="navbar-logo">
+            <h1 style={{ color: "#fff" }}>
+              Gadget<span style={{ color: "orange" }}>s</span>
+            </h1>
+
+            <p>Gadgets Store</p>
+          </div>
+        </Link>
 
         {/* Search bar */}
         <div className="search-bar">
