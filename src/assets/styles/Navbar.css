@@ -286,3 +286,7 @@
 .dropdown:hover .sub-dropdown-menu {
   display: block;
 }
+
+.footer-button {
+  text-decoration: none;
+}
