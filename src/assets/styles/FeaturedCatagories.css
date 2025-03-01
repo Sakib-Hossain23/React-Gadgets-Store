@@ -5,13 +5,17 @@
   text-align: center;
   padding: 1.5rem; /* Reduced padding for a smaller look */
   /*background-color: #f9f9f9;*/
+
+  margin-top: 10px;
 }
 
 .featured-title {
-  font-size: 1.5rem; /* Smaller font size */
+  font-size: 29px; /* Smaller font size */
   font-weight: bold;
   margin-bottom: 0.4rem;
   color: #333;
+
+  margin-top: -27px;
 }
 
 .featured-subtitle {
@@ -105,11 +109,11 @@
     box-shadow: 0px 0px 9px 6px rgba(202, 141, 44, 0.1);
   }
   .featured-title {
-    font-size: 1.9rem;
+    font-size: 25px;
   }
 
   .featured-subtitle {
-    font-size: 0.9rem;
+    font-size: 12px;
   }
 
   .categories-container {
