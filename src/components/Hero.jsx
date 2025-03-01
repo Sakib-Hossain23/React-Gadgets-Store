@@ -4,7 +4,6 @@ import Carousel from "./Carousel";
 import FeaturedCategories from "./FeaturedCategories";
 import Banner from "./Banner";
 import PG from "./PG";
-import Crl from "./Crl";
 
 import BrandProducts from "./BrandProducts";
 
@@ -18,7 +17,6 @@ const Hero = ({ addToCart }) => {
       <Banner />
       <BrandProducts addToCart={addToCart} />
 
-      <Crl />
       <PG />
     </div>
   );
