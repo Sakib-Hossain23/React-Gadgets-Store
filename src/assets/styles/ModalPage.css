@@ -65,7 +65,7 @@
 
 /* Product Details */
 h2 {
-  font-size: 2rem;
+  font-size: 29px;
   color: #333;
 }
 
@@ -463,6 +463,10 @@ h2 {
 
   .tab-content {
     padding: 0.75rem;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }
 
