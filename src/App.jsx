@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -22,7 +22,7 @@ import products from "./components/AllProducts";
 import OrderHistory from "./components/OrderHistory";
 import Fr from "./components/Fr";
 import Blog from "./components/Blog";
-import Chatbot from "./components/Chatbot"; // Import Chatbot component
+import Chatbot from "./components/Chatbot";
 
 function App() {
   const [cart, setCart] = useState([]);
